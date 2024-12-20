@@ -4,7 +4,18 @@ export default defineNuxtConfig({
     ["@nuxtjs/robots", { configPath: "~/config/robots.config" }],
     "@nuxt/image",
     "@nuxt/eslint",
+    "@nuxtjs/google-fonts",
   ],
+  app: {
+    head: {
+      link: [],
+    },
+  },
+  googleFonts: {
+    families: {
+      "Open Sans": true,
+    },
+  },
   css: ["/styles/main.scss", "@fortawesome/fontawesome-svg-core/styles.css"],
   vite: {
     css: {
