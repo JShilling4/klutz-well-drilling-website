@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      "Open Sans": true,
+      "Open Sans": "300..800",
     },
   },
   css: ["/styles/main.scss", "@fortawesome/fontawesome-svg-core/styles.css"],
