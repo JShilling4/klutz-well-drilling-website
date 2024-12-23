@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>Contact Us</div>
+  <SubpageHero heading="Contact Us" />
 </template>
 
 <style lang="scss" scoped></style>

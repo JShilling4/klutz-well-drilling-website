@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>Repair & Service</div>
+  <SubpageHero heading="Repair & Service" />
 </template>
 
 <style lang="scss" scoped></style>

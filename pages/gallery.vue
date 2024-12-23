@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>Gallery</div>
+  <SubpageHero heading="Photo Gallery" />
 </template>
 
 <style lang="scss" scoped></style>
