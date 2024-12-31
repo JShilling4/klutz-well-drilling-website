@@ -1,6 +1,6 @@
 <script setup lang="ts">
-const { width = "1600px" } = defineProps<{
-  width?: string;
+const { maxW = "1300px" } = defineProps<{
+  maxW?: string;
 }>();
 </script>
 
@@ -12,7 +12,9 @@ const { width = "1600px" } = defineProps<{
 
 <style lang="scss" scoped>
 .container {
-  max-width: v-bind(width);
-  margin: 0 auto;
+  width: 100%;
+  max-width: v-bind(maxW);
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
