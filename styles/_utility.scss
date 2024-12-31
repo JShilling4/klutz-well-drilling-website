@@ -10,14 +10,20 @@
   font-size: 16px;
   cursor: pointer;
   box-shadow: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.5);
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .btn-primary {
-  background-color: var(--primary-bg-color);
+  background: linear-gradient(
+    to bottom,
+    var(--secondary-bg-color),
+    var(--primary-bg-color)
+  );
   color: var(--primary-text-color);
 
   &:hover {
-    background-color: var(--secondary-bg-color);
+    transform: translateY(-0.25rem);
+    scale: 1.023;
+    box-shadow: 0 0.7rem 0.9rem rgba(0, 0, 0, 0.5);
   }
 }
