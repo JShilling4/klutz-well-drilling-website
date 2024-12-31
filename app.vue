@@ -22,7 +22,10 @@ html {
 }
 
 body {
-  font-family: Verdana, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "width" 100;
 }
 
 ul {
@@ -33,6 +36,10 @@ ul {
 a {
   color: #fff;
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 .app {
@@ -61,10 +68,6 @@ a {
   }
 }
 
-.body-wrapper {
-  min-height: 100vh;
-}
-
 * {
   scrollbar-width: thin;
   // scrollbar-color: var(--color-primary) var(--banner-color);
@@ -82,26 +85,5 @@ body::-webkit-scrollbar-thumb {
   // background-color: var(--color-primary);
   // outline: 1px solid var(--color-secondary);
   border-radius: 10px;
-}
-
-.view-container {
-  padding: 2rem 0;
-
-  @media screen and (max-width: 460px) {
-    padding-top: 1rem;
-  }
-
-  // &.--with-bg {
-  //   background-image: url("https://res.cloudinary.com/damqu5egp/image/upload/v1717951765/steele_rail_band/backgrounds/page-bg_mjzrxz.jpg");
-  //   background-attachment: fixed;
-  //   background-position: center;
-  //   background-size: cover;
-  //   @media screen and (max-width: 1024px) {
-  //     background: none;
-  //   }
-  //   @media screen and (max-width: 768px) {
-  //     background-color: var(--bg-black);
-  //   }
-  // }
 }
 </style>
